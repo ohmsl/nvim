@@ -45,4 +45,7 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   end,
 })
 
+vim.keymap.set('n', '<C-u>', '<C-u>zz', { desc = 'Center view when jumping up half screens' })
+vim.keymap.set('n', '<C-d>', '<C-d>zz', { desc = 'Center view when jumping down half screens' })
+
 -- vim: ts=2 sts=2 sw=2 et
